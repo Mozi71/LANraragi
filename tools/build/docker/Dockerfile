@@ -1,6 +1,6 @@
 # DOCKER-VERSION 0.3.4
 FROM        alpine:3.20
-LABEL       git="https://github.com/Difegue/LANraragi"
+LABEL       git="https://github.com/Mozi71/LANraragi"
 ARG INSTALL_PARAMETER
 
 ENV S6_KEEP_ENV 1
