@@ -9,7 +9,7 @@ After=network.target,redis.service
 [Service]
 Type=simple
 Environment=LRR_NETWORK=http://*:80
-WorkingDirectory=your_install_path
+WorkingDirectory=/root/lanraragi
 ExecStart=/usr/bin/npm start
 #Restart=on-failure
 
